@@ -467,18 +467,63 @@ svg polygon{
 	display: flex;
 	flex-wrap: wrap;
 }
+hr{
+	width: 70vw;
+	margin: 0 auto;
+	background-color: #033e49;
+	height: 0.5vw;
+	border: none;
+}
 
 /*RESPONSIVE FORMAT*/
 @media screen and (max-width:400px){
 	
 	/*HOME SECTION MOBILE*/
 	.WelcomPage{
-		height: 100vw;
+		height: 100vh;
+		width: 100vw;
+		margin-top: 0;
 	}
+	.WelcomPage .triangule svg { 
+		margin-top: 30vw;
+		height: 70vh;
+	}
+	.WelcomPage .pitbull{
+		left: 25%;
+	}
+	.WelcomPage .pitbull img{
+		height: 80vw;
+	}
+	.WelcomPage .textArea_welcome{
+		margin-top: 70vw;
+		width: 80vw;
+		height: 70vw;
+		margin-left: 12vw;
+	
+	}
+	.WelcomPage .textArea_welcome h1{
+		font-size: 15vw;
+		color: white;
+	}
+	.WelcomPage .textArea_welcome p{
+		font-size: 4vw;
+		color: white;
+	}
+	.WelcomPage button{
+		width: 50vw;
+		height: 10vw;
+		font-size: 5vw;
+		box-shadow:0px 2px 5px rgba(255,255,255,0.5) ;
+	}
+
 	
 	/*SOBRE SECTION MOBILE*/
+	.sobre h1{
+		font-size: 15vw;
+		margin-top: -5vw;
+	}
 	.sobre p{
-		font-size: 3.2vw;
+		font-size: 3.7vw;
 		text-shadow: 0 0 20px black;
 		text-align: justify;
 	}
@@ -496,30 +541,32 @@ svg polygon{
 		display: block;
 	}
 	.card{
-		width: 60%;
+		width: 75%;
+		height: 60vw;
 		margin: 10% auto;
-		border: 1.4vw solid #029593;
-}
+		border: 2vw solid #029593;
+}	
+
 	.card h1{
-		font-size: 7.5vw;
+		font-size: 8vw;
 		
 	}
 	.card p{
-		font-size: 3vw;
+		font-size: 3.5vw;
 		text-align: justify;
 	}
-	
-	/*SERVICES SECTION MOBILE*/
-	.servicos H1{
-		font-size: 12vw;
-	}
-	.opaci{
-		width: 100%;
-		height: 100%;
+		.opaci{
+		width: 99%;
+		height: 90%;
 		padding-top: 5%;
 		padding-bottom: 5%;
 		background-color: rgba(000,000,000,0.5);
 	}
+	/*SERVICES SECTION MOBILE*/
+	.servicos H1{
+		font-size: 15vw;
+	}
+
 	.boxs{
 		width: 35vw;
 		height: 44vw;
@@ -546,31 +593,59 @@ svg polygon{
 		display: none;
 	}
 	.textServicos p{
-		margin: 3vw 0 0 5vw;
-		width: 50vw;
+		margin: 3vw 0 0 10vw;
+		width: 80vw;
 		color: black;
-		font-size: 3.2vw;
+		font-size: 4.5vw;
+		display: block;
 	}
-	
+	.textServicos img:last-child{
+		display: block;
+		left: 40vw;
+		top: 0vw;
+		height: 60vw;
+
+	}
 
 	/*SECTION CONTACT MOBILE*/
 	.contato{
 		height: auto;
-		margin-bottom: 10vw;
+		margin-bottom: 0vw;
 	
 	}	
 
+	.title h1{
+		font-size: 16vw;
+		top: 17vw;
+	}
+	.title h2{
+		font-size: 9vw;
+	}
+	.title p{
+		font-size: 4vw;
+	}
+
 	.formulario{
-		height: 40vw;
+		height: 70vw;
 		width: 80vw;
-		margin: 0  5vw;
+		margin:5vw 3vw;
 		display: block;
 		position: static;
 		margin-bottom: 20vw;
+		padding: 5vw;
+		background-color: #033E49;
+		border: 5px solid #03d6ca;
+		border-radius: 20px;
+		box-shadow: 0px 0px 10px black;
+		background-image: url('../../img/logoSimples.png');
+		background-position: -75%;
+
 	}
+
 
 	.inputs{
 		font-size: 2vw;
+		border-color: #03D6CA;
 	}
 	.inputConteiner label{
 		font-size: 5vw;
@@ -585,6 +660,7 @@ svg polygon{
 		width: 40vw;
 		height: 10vw;
 		font-size: 3vw;
+		background-color: #03d6ca;
 	}
 	.inputs::placeholder{
 		font-size: 3.5vw;
@@ -644,6 +720,7 @@ svg polygon{
 		height: 120vw;
 		width:90vw;
 		margin: 10vw auto;
+		margin-top: 0vw;
 		position: static;
 		text-align: center;
 		align-items: center;
