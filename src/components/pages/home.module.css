@@ -482,7 +482,7 @@ hr{
 	.WelcomPage{
 		height: 100vh;
 		width: 100vw;
-		margin-top: 0;
+		margin-top: 2vw;
 	}
 	.WelcomPage .triangule svg { 
 		margin-top: 30vw;
@@ -518,13 +518,14 @@ hr{
 
 	
 	/*SOBRE SECTION MOBILE*/
+	.sobre{margin-top: 0;}
 	.sobre h1{
 		font-size: 15vw;
 		margin-top: -5vw;
 	}
 	.sobre p{
 		font-size: 3.7vw;
-		text-shadow: 0 0 20px black;
+		text-shadow: 0 1px 2px black;
 		text-align: justify;
 	}
 	
@@ -563,6 +564,9 @@ hr{
 		background-color: rgba(000,000,000,0.5);
 	}
 	/*SERVICES SECTION MOBILE*/
+	.servicos{
+		margin-top: 15vw;
+	}
 	.servicos H1{
 		font-size: 15vw;
 	}
@@ -638,7 +642,8 @@ hr{
 		border-radius: 20px;
 		box-shadow: 0px 0px 10px black;
 		background-image: url('../../img/logoSimples.png');
-		background-position: -75%;
+		background-position: 35vw;
+		background-repeat: no-repeat;
 
 	}
 
