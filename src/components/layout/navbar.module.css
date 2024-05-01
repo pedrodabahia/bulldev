@@ -1,0 +1,27 @@
+.navbar div{
+  width: 50%;
+  display: flex;
+  float: left;
+}
+
+.navbar .links ul{
+  width: 100%;
+  display: flex;
+  margin-left: 25vw;
+}
+.navbar .links ul li{
+  margin: 1em 0.5em;
+  list-style: none;
+  font-size: 1.7vw;
+  color: #033e49;
+  font-weight: 700;
+}
+
+.navbar .logo h1{
+  font-size: 3vw;
+  color: #033e49;
+  font-weight: 700;
+  margin:0.5vw 0 0 2vw;
+  font-family: 'cocobiker';
+  text-shadow: 0 0.2vw 0.3vw rgba(100,100,100,0.7);
+}

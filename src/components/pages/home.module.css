@@ -1,0 +1,654 @@
+/*ESSENCIAIS*/
+@font-face{
+	font-family: 'cocobiker';
+	src: url('../fonts/CocoBiker.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	overflow-x: hidden;
+}
+body{
+	overflow: hidden;
+}
+
+
+/*HOME SECTION*/
+.WelcomPage{
+	height: 530px;
+
+}
+
+.triangule{
+	height: 10vw; 
+	width: 100vw;
+	margin-top: 10vh;
+}
+
+.polign{
+	position: absolute;
+	left: -5vw;
+	height: 200vw;
+	width: 20vw;
+	}
+
+svg{
+	height: 90vw;
+	width: 100vw;
+}
+
+.pitbull{
+	position: absolute;
+	top: 10%;
+	left: 3%;
+	filter: drop-shadow(0 20px 5px rgb(0,0,0));
+}
+.pitbull img{
+	height: 55vw;
+
+}
+
+.textArea_welcome{
+	color: #033e49;
+	width: 40vw;
+	height: 30vw;
+	margin-left: 50vw;
+	margin-top: 0vw;
+}
+.textArea_welcome h1{
+	font-size: 6vw;
+	font-weight: 700;
+	font-family: 'cocobiker';
+	color: #033E49;
+	text-shadow: 0 0.4vw 0.5vw grey;
+}
+.textArea_welcome p{
+	font-size: 2.6vw;
+	font-weight: 700;
+	color: #033E49;
+	margin: 0;
+}
+
+
+/*SOBRE SECTION*/
+
+svg polygon{
+	fill:rgb(3,42,53);
+	stroke:rgb(3,42,53);
+	stroke-width:1;
+}
+
+.sectionSobre{
+	background-size: 80% 75%;
+	background-repeat: no-repeat;
+	background-position: 50% -35%;
+}
+
+.sobre{
+	width: 90%;
+	text-align: center;
+	color: #033E49;
+	margin: 3.5% auto;
+}
+.sobre h1{
+	font-size: 10vw;
+	font-family: 'cocobiker';
+	margin-top: 5%;
+	text-shadow: 0 0.4vw 0.5vw grey;	
+
+}
+.sobre p{
+	margin: 5%;
+	font-size: 2vw;
+	font-weight: 700;
+	color: #033E49;
+	text-shadow: 0 0 5px grey;
+}
+
+.sobre ul{
+	
+	text-align: left;
+	width: 80%;
+	font-size: 1.7vw;
+	color: #03d6ca;
+	margin-left: 5%;
+	align-items: center;
+	padding: 5px;
+
+
+}
+ .sobre li{
+ 	list-style: none;
+ 	margin:2%;
+ 	display: flex;
+ 	text-shadow: 0 0 5px #089370;
+}
+.sobre img{
+	display: inline-block;
+	margin-right: 1%;
+}
+.sobre .destacText{
+	color: #03D6CA;
+	text-shadow: none
+}
+
+.cards{
+	
+	width: 90%;
+	margin: 0 auto;
+	display:flex;
+}
+.opaci{
+	width: 100%;
+	height: 100%;
+	padding: 1%;
+	background-color: rgba(000,000,000,0);
+	
+}
+.card{
+	width: 30%;
+	margin: 0 2%;
+	text-align: center;
+	border: 0.7vw solid white;
+	background-color: #033e49;
+	color: white;
+	border-radius: 10px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0 0.2vw 0.9vw grey;
+	padding: 1%;
+}
+.card h1{
+	margin:5%;
+	margin-top: 0;
+	font-size: 2.6vw;
+	font-family: 'cocobiker';
+	
+}
+.card p{
+	margin: 4%;
+	font-size: 1.4vw;
+	font-weight: 700;
+	color: white;
+	text-shadow: 0 0 5px black;
+
+}
+
+.cardForce{
+	background-image: url('../../img/card-1.png')
+}
+.cardLealdade{
+	background-image: url('../../img/card-3.png')
+}
+.cardInovacao{
+	background-image: url('../../img/card-2.png')
+}
+
+/*SERVICES SECTION*/
+.servicos{
+	color: #033e49;
+}
+.titleSobre{
+	margin: 7% auto;
+	text-align: center;
+}
+
+.titleSobre h1{
+	font-size: 10vw;
+	font-family: 'cocobiker';
+	margin-top: -1%;
+	text-shadow: 0 0.4vw 0.5vw grey;
+
+}
+.titleSobre h1:first-child{
+	font-size: 3vw;
+	font-family: 'Open-sans';
+	color:rgb(150,150,150);
+	margin-left: -35vw;
+}
+
+.conteinerboxs{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	max-width: 100vw;
+	padding: 2.5vw;
+	overflow: hidden;
+}
+.boxs{
+	width: 22vw;
+	height: 25vw;
+	border:0.8vw solid #03D6CA;
+	padding: 1vw;
+	margin: calc(22vw / 6 );
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 0.2vw 0.5vw rgba(100,100,100,1);
+	background-color: #033e49;
+	color: #03D6CA;
+	animation: reflexo infinite 3s;
+	background-image:linear-gradient(to right,#033E49,#06525f,#077588,#06525f,#033e49);
+	background-size: 250%;	
+	background-repeat: no-repeat;
+}
+
+.boxs img{
+	width: 5vw;
+	height: 5vw;
+	margin: 0.5vw 0;
+}
+.boxs h1{
+	font-size: 2vw;
+	margin: 0.5vw 0;
+}
+.boxs p{
+	width: 100%;
+	margin: 0;
+	font-size: 1.3vw;
+	font-weight: 600;
+}
+
+
+.textServicos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.textServicos .textFluter .logoPonto{
+	height: 3vw;
+	position: relative;
+	left:0vw;
+	top: 1vw;
+
+}
+
+.textServicos img:last-child{
+	display: inline-block;
+	position: relative;
+	top: 5vw;
+	height: 41vw;
+	filter:drop-shadow(0 0 20px grey);
+}
+.textServicos p{
+	margin: 3vw 0 0 5vw;
+	width: 50vw;
+	color: black;
+	font-size: 2.4vw;
+	font-weight: 700;
+	-webkit-text-stroke: 0.2vw #03D6CA;
+	text-align: center;
+	display: inline-block;
+}
+
+@keyframes reflexo{
+	0%{
+		background-position:-70%
+	}
+	100%{
+		background-position: 170%;
+	}
+}
+
+/*CONTACT SECTION*/
+.title h1{
+	color: #03D6CA;
+	font-family: 'cocobiker';
+	font-size: 10vw;
+	position: relative;
+	top: 10vw;
+	left: 5vw;
+	opacity: 0.2;
+}
+.title h2, p{
+	color: #03D6CA;
+	font-size: 3vw;
+	margin-left: 6vw;
+}
+.title p{
+	opacity: 0.7;
+	font-weight: 700;
+	font-size: 2vw
+}
+.formulario{
+	height: 40vw;
+	width: 40vw;
+	position: relative;
+	top: 0;
+	left: 5vw;
+	color: #03D6CA;
+
+}
+.inputConteiner{
+	width: 45%;
+	display: inline-block;
+	margin: 2.5%;
+}
+.inputConteiner label{
+	display: block;
+	font-size: 2vw;
+	font-weight: 700;
+}
+.inputs::placeholder{
+	color: rgba(3,214,202,0.6);
+	font-size: 1.5vw;
+	transition: 2s;
+}
+.inputs{
+	width: 100%;
+	padding: 0.5vw;
+	display: block;	
+	background-color: transparent;
+	border:none;
+	border-bottom: 2px solid #033E49;
+	border-right: 2px solid #033E49;
+	transition: 2s;
+	margin-top: 1vw;
+	font-size: 1.3vw;
+	color: #03D6CA;
+}
+.formulario input:focus , textarea:focus{
+	border-color: #03D6CA;
+	box-shadow: 0 0 0 0;
+	outline: 0;
+	transition: 2s;
+}
+.formulario .textareaConteiner,textarea{
+	width: 95%;
+	height: 2vw;
+}
+.formulario textarea{
+	padding: 1.5vw 0.5vw;
+	resize:none;
+
+}
+.formulario button{
+	min-height: 5vw;
+	min-width: 15vw;
+	font-size: 1.2vw;
+	border-radius: 20px;
+}
+.redes{
+	width: 47vw;
+	height: 64vw;
+	margin-top: 0;
+	position: relative;
+	top: 0;
+	right: 0;
+
+}
+
+.redesContacts{
+	color: #033e49;
+	position: relative;
+	top: 0;
+	text-align: center;
+		text-shadow: 0 2px 5px rgb(000,000,000);
+	display: flex;
+	flex-wrap: wrap;
+}
+.redesContacts h1{
+	width: 100%;
+	margin: 1vw auto;
+	margin-bottom: 0vw;
+	font-size: 5vw;
+	text-shadow: 0 2px 5px rgb(000,000,000);
+	border-radius: 20px;
+}
+.redesContacts p{
+	font-size: 1.5vw;
+	color:#029593;
+	width: 70%;
+	margin-bottom: 2vw;
+}
+.redesContacts span{
+	display: block;
+	width: 85%;
+	text-align: left;
+	margin: 1vw 0;
+	margin-left: 2vw;
+	display:flex;
+	align-items: center;
+
+}
+.redesContacts span h2{
+	width: 70%;
+	margin-left: 1vw;
+	font-size: 2vw;
+
+}
+.redesContacts span img{
+	height: 3vw;
+
+}
+
+.redesContacts .icons h3{
+	font-size: 3vw;
+	text-align: left;
+	width: 100%;
+	border-bottom: 2px solid white;
+	margin: 0vw 0 1vw 0vw;
+}
+.icons{
+	width:40%;
+	margin-left: 2vw;
+	margin-top: 3vw;
+	text-align: left;
+}
+.icons img{
+	margin: 0 0.5vw;
+	height: 2.5vw;
+	border-radius: 5px;
+	box-shadow: 0 0 6px black;
+}
+.redesSociais{
+	height: 40vw;
+	width:37vw;
+	position: relative;	
+	top:10vw;
+	background-color: rgba(220,220,220,0.5);
+	text-align: left;
+	padding: 0.5vw;
+	margin-left: 7vw;
+	border-radius: 10px;
+	border: 6px solid #033e49;
+	box-shadow: 0 0 1vw grey;
+}
+.redesSociais .pitbullSocial{
+	height: 19vw;
+	margin-top: -3vw;
+}
+.contato{
+	height: 54.5vw;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*RESPONSIVE FORMAT*/
+@media screen and (max-width:400px){
+	
+	/*HOME SECTION MOBILE*/
+	.WelcomPage{
+		height: 100vw;
+	}
+	
+	/*SOBRE SECTION MOBILE*/
+	.sobre p{
+		font-size: 3.2vw;
+		text-shadow: 0 0 20px black;
+		text-align: justify;
+	}
+	
+	.sobre ul{
+		font-size: 3vw;
+		padding-left: 0;
+		width: 89%;
+	}
+	.sobre li img{
+		display: block;
+	}
+	.sobre img{display: none;}
+	.cards{
+		display: block;
+	}
+	.card{
+		width: 60%;
+		margin: 10% auto;
+		border: 1.4vw solid #029593;
+}
+	.card h1{
+		font-size: 7.5vw;
+		
+	}
+	.card p{
+		font-size: 3vw;
+		text-align: justify;
+	}
+	
+	/*SERVICES SECTION MOBILE*/
+	.servicos H1{
+		font-size: 12vw;
+	}
+	.opaci{
+		width: 100%;
+		height: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		background-color: rgba(000,000,000,0.5);
+	}
+	.boxs{
+		width: 35vw;
+		height: 44vw;
+		border: 1.3vw solid #033E49;
+		margin: 6% 4%;
+	}
+	.boxs img{
+		width: 9vw;
+		height: 9vw;
+		margin: 0.5vw 0;
+	}
+	.boxs h1{
+		font-size: 3.2vw;
+		margin: 1vw 0;
+		width: 70%;
+		border-bottom: 1px solid white;
+	}
+	.boxs p{
+		width: 100%;
+		margin: 0;																	
+		font-size: 2.1vw;																																																																																																								
+	}
+	.polign{
+		display: none;
+	}
+	.textServicos p{
+		margin: 3vw 0 0 5vw;
+		width: 50vw;
+		color: black;
+		font-size: 3.2vw;
+	}
+	
+
+	/*SECTION CONTACT MOBILE*/
+	.contato{
+		height: auto;
+		margin-bottom: 10vw;
+	
+	}	
+
+	.formulario{
+		height: 40vw;
+		width: 80vw;
+		margin: 0  5vw;
+		display: block;
+		position: static;
+		margin-bottom: 20vw;
+	}
+
+	.inputs{
+		font-size: 2vw;
+	}
+	.inputConteiner label{
+		font-size: 5vw;
+	}
+	.inputConteiner{
+		width: 60vw;
+	}
+	.inputConteiner input{
+		font-size: 3.5vw;
+	}
+	.formulario button{
+		width: 40vw;
+		height: 10vw;
+		font-size: 3vw;
+	}
+	.inputs::placeholder{
+		font-size: 3.5vw;
+	}
+	.redes{
+		display: none;
+
+	}
+
+	.redesContacts{
+		position: static;
+		text-align: center;
+			text-shadow: 0 2px 5px rgb(000,000,000);
+
+	}
+	.redesContacts h1{
+		font-size: 12vw;
+		color: #033e49;
+	}
+	.redesContacts p{
+		font-size: 5vw;
+		width: 90%;
+		float: center;
+		margin: 0 auto;
+		margin-bottom: 4vw;
+	}
+	.redesContacts span h2{
+		width: 70%;
+		margin-left: 1vw;
+		font-size: 5.5vw;
+
+	}
+	.redesContacts span img{
+		height: 7vw;
+
+	}
+
+	.icons{
+		width:40%;
+		margin-left: 2vw;
+		margin-top: 10vw;
+		text-align: left;
+	}
+	.redesContacts .icons h3{
+		font-size: 8vw;
+		width: 100%;
+	}
+	.icons img{
+		margin: 0 0.8vw;
+		height: 6vw;
+		box-shadow: 0 0 10px black;
+	}
+	.redesContacts .pitbullSocial{
+		height: 50vw;
+	}
+	.redesSociais{
+		height: 120vw;
+		width:90vw;
+		margin: 10vw auto;
+		position: static;
+		text-align: center;
+		align-items: center;
+
+	}
+
+	
+}

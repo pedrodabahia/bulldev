@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+button{
+	background-color: #033E49;
+	border:none;
+	min-width: 20vw;
+	min-height: 5vw;	;
+	border-radius: 40px;
+	color: white;
+	font-size: 1.9vw;
+	font-weight: 700;
+	margin-top: 5%;
+	box-shadow: 1px 4px 2px rgb(3,22,33);
+	cursor: pointer;
+
+}
+button:active{
+	box-shadow: 0 0 0 transparent;
+	border-bottom:5px groove rgb(2, 32,43);;
+	border-right:5px groove rgb(2, 32,43);;
+	border-top:5px ridge rgb(2, 32,43);;
+	border-left:5px ridge rgb(2, 32,43);;
+	margin-top: 32px;
+	background-color: rgb(3,42,53);
+
+}
