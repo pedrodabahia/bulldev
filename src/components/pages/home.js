@@ -94,6 +94,7 @@ function Home(){
 				</div>
 				<div className={styles.pitbull}>
 					<img src={pitbull} alt="Pitbull_Image"/>
+					<span></span>
 				</div>
 				<div className={styles.textArea_welcome}>
 				  <h1>BULLDEV</h1>	
@@ -216,7 +217,7 @@ function Home(){
 					<p className={styles.textFluter}>Transforme seua visão em realidade com a nossa paixão por tecnogia. Na BullDev, respiramos inovação
 						e vivemos para ajudar seu negócio a brilhar no mundo digital. Com um foco icansável e um desejo ardente 
 						de excelência estamos aqui para ser o farol que guia sua empresa rumo ao sucesso. Entre em contato conosco
-						e dê o primeiro passo emdireção ao futuro.<img alt="logoSimples" className={styles.logoPonto } src={logoSimples}/>
+						e dê o primeiro passo emdireção ao futuro.
 					</p>
 					<img alt="logoSimples" src={imgPitbull}/>
 				</div>

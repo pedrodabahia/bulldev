@@ -48,7 +48,17 @@ svg{
 }
 .pitbull img{
 	height: 55vw;
-
+}
+.pitbull span{
+	width: 40vw;
+	height: 8vw;
+	border-radius: 50%;
+	position: relative;
+	top: -9vw;
+	left: 3vw;
+	display: block;
+	background-image: linear-gradient(to right, rgba(000,000,000,0.6),rgba(000,000,000,0.9),black,black,black,rgba(000, 000, 000, 0.9), rgba(000,000,000,0.6));
+	filter: blur(5px);
 }
 
 .textArea_welcome{
@@ -159,7 +169,6 @@ svg polygon{
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	box-shadow: 0 0.2vw 0.9vw grey;
 	padding: 1%;
 }
 .card h1{
@@ -171,7 +180,7 @@ svg polygon{
 }
 .card p{
 	margin: 4%;
-	font-size: 1.4vw;
+	font-size: 1.6vw;
 	font-weight: 700;
 	color: white;
 	text-shadow: 0 0 5px black;
@@ -179,7 +188,7 @@ svg polygon{
 }
 
 .cardForce{
-	background-image: url('../../img/card-1.png')
+	background-image: url('../../img/card-1.png');
 }
 .cardLealdade{
 	background-image: url('../../img/card-3.png')
@@ -187,6 +196,7 @@ svg polygon{
 .cardInovacao{
 	background-image: url('../../img/card-2.png')
 }
+
 
 /*SERVICES SECTION*/
 .servicos{
@@ -469,10 +479,12 @@ svg polygon{
 }
 hr{
 	width: 70vw;
-	margin: 0 auto;
+	margin: -7vw auto;
+	margin-bottom: none;
 	background-color: #033e49;
-	height: 0.5vw;
-	border: none;
+	height: 0;
+	border: 0.001px solid #033E49;
+	border-bottom: none;
 }
 
 /*RESPONSIVE FORMAT*/
@@ -542,23 +554,30 @@ hr{
 		display: block;
 	}
 	.card{
-		width: 75%;
+		width: 45vw;
 		height: 60vw;
-		margin: 10% auto;
+		margin: 5% auto;
 		border: 2vw solid #029593;
+		border-radius: 5px;
+		box-shadow: 0 10px 15px black;
 }	
-
+	.cardForce{ 
+		margin-left: 0;
+		margin-top: 10vw;	
+	}
+	.cardInovacao{ margin-left: 0;}
+	.cardLealdade{margin-right:0 ;}
 	.card h1{
-		font-size: 8vw;
-		
+		font-size: 6vw;
+		margin-top: 4%;
 	}
 	.card p{
-		font-size: 3.5vw;
+		font-size: 3vw;
 		text-align: justify;
 	}
 		.opaci{
 		width: 99%;
-		height: 90%;
+		height: 94%;
 		padding-top: 5%;
 		padding-bottom: 5%;
 		background-color: rgba(000,000,000,0.5);
@@ -606,7 +625,7 @@ hr{
 	.textServicos img:last-child{
 		display: block;
 		left: 40vw;
-		top: 0vw;
+		top: -10vw;
 		height: 60vw;
 
 	}
