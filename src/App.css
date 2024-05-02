@@ -3,7 +3,9 @@
   padding: 0;
   scrollbar-color:#033E49 white;
 }
-
+html,body{
+  overflow-x: hidden;
+}
 body{
   background:rgb(223, 223, 223)
 }

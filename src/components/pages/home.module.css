@@ -10,9 +10,11 @@
 }
 html,body{
 	overflow-x: hidden;
+
 }
 body{
 	overflow: hidden;
+
 }
 
 
@@ -44,22 +46,13 @@ svg{
 	position: absolute;
 	top: 10%;
 	left: 3%;
-	filter: drop-shadow(0 20px 5px rgb(0,0,0));
 }
 .pitbull img{
 	height: 55vw;
+	filter: drop-shadow(0 20px 5px rgb(0,0,0));
+
 }
-.pitbull span{
-	width: 40vw;
-	height: 8vw;
-	border-radius: 50%;
-	position: relative;
-	top: -9vw;
-	left: 3vw;
-	display: block;
-	background-image: linear-gradient(to right, rgba(000,000,000,0.6),rgba(000,000,000,0.9),black,black,black,rgba(000, 000, 000, 0.9), rgba(000,000,000,0.6));
-	filter: blur(5px);
-}
+
 
 .textArea_welcome{
 	color: #033e49;
@@ -92,9 +85,10 @@ svg polygon{
 }
 
 .sectionSobre{
-	background-size: 80% 75%;
-	background-repeat: no-repeat;
-	background-position: 50% -35%;
+	background-image: linear-gradient(to top, transparent,rgba(3, 42, 53, 0.633),rgb(3,42,53),rgb(3, 42, 53),rgb(3,42,53),rgb(3,42,53),rgb(3,42,53),rgb(3,42,53),rgb(3,42,53),rgb(3,42,53));
+	padding: 10vw 0;
+
+
 }
 
 .sobre{
@@ -102,6 +96,7 @@ svg polygon{
 	text-align: center;
 	color: #033E49;
 	margin: 3.5% auto;
+
 }
 .sobre h1{
 	font-size: 10vw;
@@ -487,58 +482,77 @@ hr{
 	border-bottom: none;
 }
 
+
+
+
 /*RESPONSIVE FORMAT*/
 @media screen and (max-width:600px){
+	html,body{
+		overflow-x: hidden;
+	}
 	
 	/*HOME SECTION MOBILE*/
 	.WelcomPage{
-		height: 100vh;
+		height:90vh;
 		width: 100vw;
 		margin-top: 2vw;
+		margin-bottom: 0;
 	}
 	.WelcomPage .triangule svg { 
 		margin-top: 30vw;
 		height: 70vh;
+		margin-bottom: 0;
 	}
 	.WelcomPage .pitbull{
-		left: 25%;
+		position: static;
 	}
 	.WelcomPage .pitbull img{
-		height: 80vw;
+		height: 65vw;
+		position: relative;
+		left: 1vw;
+	}
+	.WelcomPage .pitbull span{
+		height: 15%;
 	}
 	.WelcomPage .textArea_welcome{
-		margin-top: 70vw;
-		width: 80vw;
-		height: 70vw;
-		margin-left: 12vw;
-	
-	}
-	.WelcomPage .textArea_welcome h1{
-		font-size: 15vw;
-		color: white;
-	}
-	.WelcomPage .textArea_welcome p{
-		font-size: 4vw;
-		color: white;
-	}
-	.WelcomPage button{
+		margin-top: -50vw;
 		width: 50vw;
 		height: 10vw;
-		font-size: 5vw;
+		margin-left: 47vw;
+		margin-bottom: 0;
+		position: static;
+	}
+	.WelcomPage .textArea_welcome h1{
+		font-size: 9vw;
+		color: #033E49;
+	}
+	.WelcomPage .textArea_welcome p{
+		font-size: 3vw;
+		color: #033E49;
+	}
+	.WelcomPage button{
+		width: 30vw;
+		height: 6vw;
+		font-size: 3vw;
 		box-shadow:0px 2px 5px rgba(255,255,255,0.5) ;
 	}
 
 	
 	/*SOBRE SECTION MOBILE*/
 	.sobre{margin-top: 0;}
+	.sectionSobre{
+		margin-top: 0;
+	}
 	.sobre h1{
 		font-size: 15vw;
 		margin-top: -5vw;
+		color: white;
 	}
 	.sobre p{
 		font-size: 3.7vw;
 		text-shadow: 0 1px 2px black;
 		text-align: justify;
+		color: white;
 	}
 	
 	.sobre ul{
@@ -654,7 +668,7 @@ hr{
 		margin:5vw 3vw;
 		display: block;
 		position: static;
-		margin-bottom: 20vw;
+		margin-bottom: 5vw;
 		padding: 5vw;
 		background-color: #033E49;
 		border: 5px solid #03d6ca;
@@ -693,62 +707,8 @@ hr{
 		display: none;
 
 	}
-
-	.redesContacts{
-		position: static;
-		text-align: center;
-			text-shadow: 0 2px 5px rgb(000,000,000);
-
-	}
-	.redesContacts h1{
-		font-size: 12vw;
-		color: #033e49;
-	}
-	.redesContacts p{
-		font-size: 5vw;
-		width: 90%;
-		float: center;
-		margin: 0 auto;
-		margin-bottom: 4vw;
-	}
-	.redesContacts span h2{
-		width: 70%;
-		margin-left: 1vw;
-		font-size: 5.5vw;
-
-	}
-	.redesContacts span img{
-		height: 7vw;
-
-	}
-
-	.icons{
-		width:40%;
-		margin-left: 2vw;
-		margin-top: 10vw;
-		text-align: left;
-	}
-	.redesContacts .icons h3{
-		font-size: 8vw;
-		width: 100%;
-	}
-	.icons img{
-		margin: 0 0.8vw;
-		height: 6vw;
-		box-shadow: 0 0 10px black;
-	}
-	.redesContacts .pitbullSocial{
-		height: 50vw;
-	}
 	.redesSociais{
-		height: 120vw;
-		width:90vw;
-		margin: 10vw auto;
-		margin-top: 0vw;
-		position: static;
-		text-align: center;
-		align-items: center;
-
+		display: none;
 	}
 
 	

@@ -94,7 +94,6 @@ function Home(){
 				</div>
 				<div className={styles.pitbull}>
 					<img src={pitbull} alt="Pitbull_Image"/>
-					<span></span>
 				</div>
 				<div className={styles.textArea_welcome}>
 				  <h1>BULLDEV</h1>	
