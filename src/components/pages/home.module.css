@@ -493,7 +493,7 @@ hr{
 	
 	/*HOME SECTION MOBILE*/
 	.WelcomPage{
-		height:90vh;
+		height: 130vw;
 		width: 100vw;
 		margin-top: 2vw;
 		margin-bottom: 0;
@@ -507,33 +507,38 @@ hr{
 		position: static;
 	}
 	.WelcomPage .pitbull img{
-		height: 65vw;
+		height: 85vw;
 		position: relative;
 		left: 1vw;
+		opacity: 1;
+		z-index: 0;
 	}
 	.WelcomPage .pitbull span{
 		height: 15%;
 	}
 	.WelcomPage .textArea_welcome{
-		margin-top: -50vw;
-		width: 50vw;
+		margin-top: 0vw;
+		width: 70vw;
 		height: 10vw;
-		margin-left: 47vw;
+		margin-left: 28vw;
 		margin-bottom: 0;
-		position: static;
+		position: relative;
+		top: -20vw;
+		text-shadow: 0 2px 2px rgb(73, 73, 73);
 	}
 	.WelcomPage .textArea_welcome h1{
-		font-size: 9vw;
-		color: #033E49;
+		font-size: 11vw;
+		color: white;
+		text-shadow: 0 2px 2px rgb(73, 73, 73);
 	}
 	.WelcomPage .textArea_welcome p{
-		font-size: 3vw;
-		color: #033E49;
+		font-size: 5vw;
+		color:white;
 	}
 	.WelcomPage button{
-		width: 30vw;
-		height: 6vw;
-		font-size: 3vw;
+		width: 40vw;
+		height: 8vw;
+		font-size: 4vw;
 		box-shadow:0px 2px 5px rgba(255,255,255,0.5) ;
 	}
 
