@@ -94,7 +94,7 @@ svg polygon{
 .sobre{
 	width: 90%;
 	text-align: center;
-	color: #033E49;
+	color: #ffffff;
 	margin: 3.5% auto;
 
 }
@@ -109,7 +109,7 @@ svg polygon{
 	margin: 5%;
 	font-size: 2vw;
 	font-weight: 700;
-	color: #033E49;
+	color: #ffffff;
 	text-shadow: 0 0 5px grey;
 }
 
@@ -261,6 +261,7 @@ svg polygon{
 .textServicos {
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom:5vw;
 }
 
 .textServicos .textFluter .logoPonto{
@@ -274,7 +275,7 @@ svg polygon{
 .textServicos img:last-child{
 	display: inline-block;
 	position: relative;
-	top: 5vw;
+	top: 3vw;
 	height: 41vw;
 	filter:drop-shadow(0 0 20px grey);
 }
@@ -284,7 +285,7 @@ svg polygon{
 	color: black;
 	font-size: 2.4vw;
 	font-weight: 700;
-	-webkit-text-stroke: 0.2vw #03D6CA;
+	-webkit-text-stroke: 0.1vw #03D6CA;
 	text-align: center;
 	display: inline-block;
 }
@@ -300,7 +301,7 @@ svg polygon{
 
 /*CONTACT SECTION*/
 .title h1{
-	color: #03D6CA;
+	color: #017973;
 	font-family: 'cocobiker';
 	font-size: 10vw;
 	position: relative;
@@ -309,7 +310,7 @@ svg polygon{
 	opacity: 0.2;
 }
 .title h2, p{
-	color: #03D6CA;
+	color: #017973;
 	font-size: 3vw;
 	margin-left: 6vw;
 }
@@ -324,7 +325,7 @@ svg polygon{
 	position: relative;
 	top: 0;
 	left: 5vw;
-	color: #03D6CA;
+	color: #017973;
 
 }
 .inputConteiner{
@@ -338,7 +339,7 @@ svg polygon{
 	font-weight: 700;
 }
 .inputs::placeholder{
-	color: rgba(3,214,202,0.6);
+	color: #017973;
 	font-size: 1.5vw;
 	transition: 2s;
 }
@@ -353,7 +354,7 @@ svg polygon{
 	transition: 2s;
 	margin-top: 1vw;
 	font-size: 1.3vw;
-	color: #03D6CA;
+	color: #017973;
 }
 .formulario input:focus , textarea:focus{
 	border-color: #03D6CA;
@@ -473,13 +474,14 @@ svg polygon{
 	flex-wrap: wrap;
 }
 hr{
-	width: 70vw;
-	margin: -7vw auto;
+	width: 50vw;
+	margin: -3.5vw 0vw -3.5vw 50vw;
 	margin-bottom: none;
 	background-color: #033e49;
 	height: 0;
-	border: 0.001px solid #033E49;
+	border: 5px solid #033E49;
 	border-bottom: none;
+	border-radius: 3px;
 }
 
 
