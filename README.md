@@ -9,5 +9,21 @@ Tecnologia React: O site foi desenvolvido com React, uma biblioteca JavaScript p
 API PHP: O site se conecta a uma API PHP para recuperar dados do portfólio e envialos ao proprietario do site.
 Design responsivo: O site é responsivo, o que significa que ele se adapta automaticamente à tela do dispositivo em que está sendo visualizado.
 O Bulldev Solutions é um exemplo de como React e PHP podem ser usados para criar um site de portfólio profissional e atraente.
+## Links
+
+### Projeto hospedado no Netlify
+[Bulldev Solutions](https://bulldev.netlify.app)
+
 
 ## Imagens 
+![Imagem Central](src/img/fireshot001)
+
+## Tecnologias Ultilizadas
+- React.js
+- fetch api
+- PHP api
+- IA generate Image
+- Netlify
+
+## Status do Projeto
+Como so será ultilizado como projeto de portifólio, o projeto bulldev sera colocado na "prateleira" por tempo indeterminado,sem aplicação profissional.
